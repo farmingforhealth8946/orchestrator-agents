@@ -1,0 +1,5 @@
+{
+  "name": "orchestrator-agents",
+  "owner": { "name": "farmingforhealth8946" },
+  "plugins": [{ "name": "orchestrator-agents", "source": "./" }]
+}

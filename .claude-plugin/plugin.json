@@ -1,0 +1,5 @@
+{
+  "name": "orchestrator-agents",
+  "version": "0.1.0",
+  "description": "Orchestrator team: Fable 5.1 advisor, Opus 5.5 executor, Sonnet 5.5 researcher, with the orchestrator as the main agent."
+}
