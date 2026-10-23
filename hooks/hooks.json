@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|clear",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node -e \"console.log('Before working on the first user request in this session, ask once: Use the orchestrator ruleset for this session? (yes/no). If yes, Read ' + require('path').join(process.env.CLAUDE_PLUGIN_ROOT, 'agents', 'orchestrator.md') + ' and follow its body as your rules for the rest of the session. If no, work normally and do not ask again.')\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}
