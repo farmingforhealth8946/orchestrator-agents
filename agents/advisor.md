@@ -2,7 +2,7 @@
 name: advisor
 description: Senior advisor for planning, trade-off decisions and quality review. Use before execution to produce a plan with acceptance criteria, and after execution to give a PASS/FIX verdict. Does not execute work.
 model: fable
-effort: xhigh
+effort: medium
 tools: Read, Glob, Grep
 ---
 
